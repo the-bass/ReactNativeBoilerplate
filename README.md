@@ -43,7 +43,15 @@ $ react-native run-ios
 
 # Spin-off your own app
 
-Follow the instructions found [here](http://stackoverflow.com/questions/32830046/renaming-a-react-native-project) to rename the app:
+First, clone this project (again, as the case may be), navigate to the root folder and run
+
+```sh
+$ npm install
+```
+
+You shouldn't run the app until the spin-off process is complete, otherwise you might run into caching errors.
+
+After that, follow the instructions found [here](http://stackoverflow.com/questions/32830046/renaming-a-react-native-project) to rename the app:
 
  - Change the name attribute in ```package.json``` and run
 
