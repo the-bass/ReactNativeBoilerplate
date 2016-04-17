@@ -41,6 +41,21 @@ $ react-native run-ios
 , respectively.
 
 
+# Spin-off your own app
+
+Follow the instructions found [here](http://stackoverflow.com/questions/32830046/renaming-a-react-native-project) to rename the app:
+
+ - Change the name attribute in ```package.json``` and run
+
+  ```sh
+  $ react-native upgrade
+  ```
+
+ - Then, in the files ```index.ios.js``` and ```index.android.js``` in the root of the project, replace the line ```AppRegistry.registerComponent('ReactNativeBoilerplate', () => Root)``` with ```AppRegistry.registerComponent('YourNewAppName', () => Root)```
+ 
+After that, you might want to make sure to start a fresh git project.
+
+
 # Todo
 
  - Implement tests for the existing components and modules
